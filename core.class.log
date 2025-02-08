@@ -1,0 +1,559 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573125915746@s.whatsapp.net',
+    fromMe: false,
+    id: '3ABA4C9F63568D377992',
+    participant: undefined
+  },
+  messageTimestamp: 1738966952,
+  pushName: 'Maritza',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573125915746'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573125915746@s.whatsapp.net',
+    fromMe: false,
+    id: '3ABA4C9F63568D377992',
+    participant: undefined
+  },
+  messageTimestamp: 1738966953,
+  pushName: 'Maritza',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573125915746'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573125915746@s.whatsapp.net',
+    fromMe: false,
+    id: '3ABA4C9F63568D377992',
+    participant: undefined
+  },
+  messageTimestamp: 1738966954,
+  pushName: 'Maritza',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573125915746'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3A6CB470418E804331D3',
+    participant: undefined
+  },
+  messageTimestamp: 1738966973,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '.',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3AAA03DF0C5B856D1C7D',
+    participant: undefined
+  },
+  messageTimestamp: 1738966996,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '2',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3A106C6A50F1A9F1194B',
+    participant: undefined
+  },
+  messageTimestamp: 1738967033,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '8',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '8',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE22E4391199D209774',
+    participant: undefined
+  },
+  messageTimestamp: 1738967047,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  status: 4,
+  body: '1',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3A320513D486165900E7',
+    participant: undefined
+  },
+  messageTimestamp: 1738967062,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '3',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3A310E3CE9DDD31BF402',
+    participant: undefined
+  },
+  messageTimestamp: 1738967069,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '4',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF35EA3C579CE0A581E',
+    participant: undefined
+  },
+  messageTimestamp: 1738967083,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '5',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '5',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC72824A7B1B047AE97',
+    participant: undefined
+  },
+  messageTimestamp: 1738967099,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '6',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '6',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122593932@s.whatsapp.net',
+    fromMe: false,
+    id: '3A87613E1886A87A9535',
+    participant: undefined
+  },
+  messageTimestamp: 1738967118,
+  pushName: 'María Alejandra García L.',
+  broadcast: false,
+  message: Message {
+    conversation: '7',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '7',
+  from: '573122593932'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  keyword: 'key_acef9463-a375-4588-9168-3c13b90bbf20',
+  answer: '👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 500,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3fc2260d462a941d4ae4bb942fe85e84'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_56a76edf-2791-4319-b93a-85e550366c37',
+  keyword: 'ans_ca0bb689-e19e-4f3e-97fb-9eecdcd7a97a',
+  answer: 'Escribe el número de la opción que deseas:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d08b664a7034100f19f8c7c0944ee08'
+}
