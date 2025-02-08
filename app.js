@@ -20,12 +20,14 @@ Elige una opción escribiendo el número correspondiente:
     );
 };
 
+const flowDespedida = addKeyword(['gracias', 'adios'])
+.addAnswer('👋 ¡Gracias por contactarnos! Si necesitas más ayuda, escríbenos nuevamente. 😊');
 
 const flowPrincipal = addKeyword(["Hola", "Buenas", "ola", "."])
     .addAnswer('👋 ¡Hola! Bienvenid@ a *Fercementos*! 😊', { delay: 500 }, async (_, { flowDynamic }) => {
         await mostrarMenu(flowDynamic);
     })
-    .addAnswer('Escribe el número de la opción que deseas:', { capture: true }, async (ctx, { flowDynamic, fallBack }) => {
+    .addAnswer('Escribe el número de la opción que deseas:', { capture: true }, async (ctx, { flowDynamic, gotoFlow }) => {
         const opcion = ctx.body.trim();
 
         const respuestas = {
@@ -39,35 +41,24 @@ const flowPrincipal = addKeyword(["Hola", "Buenas", "ola", "."])
             '8': '👋 *¡Gracias por contactarnos!* \nNos despedimos. Si necesitas ayuda en el futuro, no dudes en escribirnos nuevamente. ¡Hasta pronto! 😊',
         };
 
-        if (respuestas[opcion]) {
+        if (opcion === '8') {
             await flowDynamic(respuestas[opcion]);
-
-            if (opcion === '8') {
-                return;  // No hacemos nada más, permitimos que el usuario vuelva a escribir cuando quiera
-            }
-        } else {
-            return fallBack('❌ Opción no válida. Por favor, elige un número del 1 al 8.');
+            return gotoFlow(flowDespedida); // <-- Cierra la conversación
+        } 
+        else if (respuestas[opcion]) {
+            await mostrarMenu(flowDynamic); // <-- Muestra el menú nuevamente
+            return; 
+        } 
+        else {
+            return fallBack('❌ Opción inválida. Escribe un número del 1 al 8:');
         }
     });
-
-// Flujo de reinicio si el usuario vuelve a escribir después de salir
-const flowReinicio = addKeyword(["Hola", "Buenas", "ola", "."])
-    .addAnswer('👋 ¡Hola de nuevo! 😊', { delay: 500 }, async (_, { flowDynamic }) => {
-        await mostrarMenu(flowDynamic);
-    });
-
-// Flujo de inactividad
-const flowInactividad = addKeyword([])
-    .addAnswer(
-        '⌛ No hemos recibido ninguna respuesta en los últimos 2 minutos. Si necesitas más ayuda, vuelve a escribirnos. ¡Hasta pronto! 😊',
-        { delay: 120000 }
-    );
 
 // Configuración del bot
 const main = async () => {
     const adapterDB = new MockAdapter();
     const adapterProvider = createProvider(BaileysProvider);
-    const adapterFlow = createFlow([flowPrincipal, flowReinicio, flowInactividad]);
+    const adapterFlow = createFlow([flowPrincipal, flowDespedida]);
 
     createBot({
         flow: adapterFlow,
